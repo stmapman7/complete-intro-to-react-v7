@@ -23,6 +23,19 @@ function Layout({ children }) {
             linkedin={courseInfo.social.linkedin}
           />
         </div>
+        <script
+          async
+          defer
+          src="https://scripts.simpleanalyticscdn.com/latest.js"
+          data-hostname="react-v7.holt.courses"
+        ></script>
+        <noscript>
+          <img
+            src="https://queue.simpleanalyticscdn.com/noscript.gif?hostname=react-v7.holt.courses"
+            alt=""
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </noscript>
       </HeaderProvider>
     </CourseInfoProvider>
   );
